@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(72.15deg, #33CfFF 15.00%, #CCFFFF 85.00%);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-logo{
+    height: 72px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Unbounded', cursive;
+    color: #666666;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo{
+    border-top: 0.4px solid #666666;
+    margin-bottom: 48px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.conteudo-principal-escrito-h1{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: #333333;
+}
+
+.conteudo-principal-escrito-h2{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #666666;
+}
+
+.conteudo-principal-escrito-button{
+    background-color: #CCCCCC;
+    width: 185px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 5px 4px rgba(0,0,0, 0.25);
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #666666;
+
+}
+
+.conteudo-principal-escrito-button:hover{
+    background-color: #a3a3a3;
+}
+
+.conteudo-principal-imagem{
+    height: 600px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+}
+
+.conteudo-secundario-h3{
+    border-top: 0.4px solid #666666;
+    padding-top: 45px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #666666;
+    margin-bottom: 15px;
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #666666;
+    width: 800px;
+}
+
+.rodape{
+    border-top: 0.4px solid #666666;
+    padding: 32px;
+}
+
+.rodape-imagem{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
